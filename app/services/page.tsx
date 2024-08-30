@@ -9,26 +9,26 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "Web development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Web Development",
+    description: "Building modern and responsive websites tailored to your needs.",
     href: "http://github.com",
   },
   {
     num: "02",
-    title: "Mobile development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Mobile Development",
+    description: "Creating user-friendly mobile apps for iOS and Android.",
     href: "http://github.com",
   },
   {
     num: "03",
     title: "Logo Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Crafting unique logos that represent your brand identity.",
     href: "http://github.com",
   },
   {
     num: "04",
-    title: "Maintenance et Support",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Maintenance and Support",
+    description: "Providing ongoing support and maintenance for your projects.",
     href: "http://github.com",
   },
 ];

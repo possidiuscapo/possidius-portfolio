@@ -11,8 +11,8 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/">
-          <h1 className="text-4xl font-semibold">
-            Possidius<span className="text-accent"></span>
+          <h1 className="text-3xl xl:text-5xl font-semibold">
+            Possidius<span className="text-accent"> .</span>
           </h1>
         </Link>
 
@@ -24,7 +24,7 @@ const Header = () => {
         </div>
 
         {/* Nav mobile*/}
-        <div className="lg:hidden ">
+        <div className="lg:hidden">
          <MobileNav/>
         </div>
       </div>

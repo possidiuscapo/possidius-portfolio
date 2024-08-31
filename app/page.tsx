@@ -12,16 +12,16 @@ const Home = () => {
   return (
     <section>
       <div className="container mx-auto ">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-14">
-          <div className="text-center lg:text-left order-2 xl:order-none">
+        <div className="flex flex-col lg:flex-row items-center justify-between lg:pt-8 lg:pb-10 xl:pt-8 xl:pb-14">
+          <div className="text-center lg:text-left order-2 lg:order-none">
             <span>Delopper</span>
             <h1 className="h1 mb-6">
               Hello, I&apos;m <br/> <span className='text-accent'>Possidius CAPO-CHICHI</span>
             </h1>
-            <p className='max-w-[600px] mb-9 text-white/80'>A passionate full-stack developer specialized in creating robust and high-performance web and mobile applications. My goal is to transform ideas into innovative digital solutions.</p>
+            <p className='max-w-[600px] mb-9 text-white/80 text-[14px] font-thin'>A passionate full-stack developer specialized in creating robust and high-performance web and mobile applications. My goal is to transform ideas into innovative digital solutions.</p>
             <div className='flex flex-col lg:flex-row items-center gap-8'>
-              <Button variant="outline" size="lg" className='uppercase flex items-center gap-2'>
-                <span>Download CV</span>
+              <Button variant="outline" size="sm" className='uppercase flex items-center justify-center rounded-xl gap-2'>
+                <span>CV</span>
                 <FiDownload className="text-xl"/>
               </Button>
               <div>

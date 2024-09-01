@@ -258,10 +258,10 @@ const Resume: React.FC = () => {
             {/* Tabs experience */}
             <TabsContent value="experience" className="w-full">
               <div className="flex flex-col text-center lg:text-left">
-                <h3 className="text-4xl font-bold my-4">
+                <h3 className="text-3xl xl:text-6xl font-bold my-4">
                   {experiences.title}{" "}
                 </h3>
-                <p className="max-w-[600px] text-white/60 text-sm mb-5 mx-auto lg:mx-0">
+                <p className="max-w-[600px] text-white/60 text-[14px] xl:text-2xl mb-5 mx-auto lg:mx-0">
                   {experiences.description}
                 </p>
                 <ScrollArea className="h-[350px] xl:h-[400px]">
@@ -292,8 +292,8 @@ const Resume: React.FC = () => {
             {/* Tabs education */}
             <TabsContent value="education" className="w-full">
               <div className="flex flex-col text-center lg:text-left">
-                <h3 className="text-4xl font-bold my-4">{education.title} </h3>
-                <p className="max-w-[600px] text-white/60 text-sm mb-5 mx-auto lg:mx-0">
+                <h3 className="text-3xl xl:text-6xl font-bold my-4">{education.title} </h3>
+                <p className="max-w-[600px] text-white/60 text-[14px] xl:text-2xl mb-5 mx-auto lg:mx-0">
                   {education.description}
                 </p>
                 <ScrollArea className="h-[350px] xl:h-[400px]">
@@ -325,8 +325,8 @@ const Resume: React.FC = () => {
             <TabsContent value="skills" className="w-full h-full">
               <div className="flex flex-col gap-3">
                 <div className="flex flex-col gap-8 text-center lg:text-left mb-5">
-                  <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className="max-w-[600px] text-sm text-white/60 mx-auto lg:mx-0 ">
+                  <h3 className="text-3xl xl:text-6xl font-bold my-4">{skills.title}</h3>
+                  <p className="max-w-[600px] text-[14px] xl:text-2xl text-white/60 mx-auto lg:mx-0 ">
                     {skills.description}
                   </p>
                 </div>
@@ -362,7 +362,7 @@ const Resume: React.FC = () => {
             >
               <div className="flex flex-col gap-8 ">
                 <h3 className="text-2xl xl:text-4xl font-bold ">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto lg:mx-0 text-[14px]">
+                <p className="max-w-[600px] text-white/60 mx-auto lg:mx-0 text-[14px] xl:text-2xl">
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 max-w-[620px] mx-auto lg:mx-0 ">

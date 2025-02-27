@@ -9,11 +9,11 @@ const stats = [
     text: "Années d'expérience",
   },
   {
-    num: 5,
+    num: 3,
     text: "Projets réalisés",
   },
   {
-    num: 6,
+    num: 4,
     text: "Technologies utilisées",
   },
   {
@@ -30,7 +30,11 @@ const Stats = () => {
           {stats.map((item, index) => {
             return (
               <div key={index} className="flex-1 flex justify-center xl:justify-start items-center gap-4">
+                <div className='flex'>
+                  <span>+</span>
                   <CountUp end={item.num} duration={5} delay={2} className='text-3xl lg:text-4xl xl:text-6xl font-extrabold'/>
+                </div>
+                  
                 <p className={`${item.text.length < 25 ? "max-w-[100px]" : "max-w-[150px]"} leading-snug text-white/80`}>{item.text}</p>
               </div>
             );

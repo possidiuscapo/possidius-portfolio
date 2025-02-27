@@ -6,32 +6,61 @@ import { BsArrowDownRight } from "react-icons/bs";
 
 import { motion } from "framer-motion";
 
+// const services = [
+//   {
+//     num: "01",
+//     title: "Web Development",
+//     description: "Building modern and responsive websites tailored to your needs.",
+//     href: "http://github.com",
+//   },
+//   {
+//     num: "02",
+//     title: "Mobile Development",
+//     description: "Creating user-friendly mobile apps for iOS and Android.",
+//     href: "http://github.com",
+//   },
+//   {
+//     num: "03",
+//     title: "Logo Design",
+//     description: "Crafting unique logos that represent your brand identity.",
+//     href: "http://github.com",
+//   },
+//   {
+//     num: "04",
+//     title: "Maintenance and Support",
+//     description: "Providing ongoing support and maintenance for your projects.",
+//     href: "http://github.com",
+//   },
+// ];
+
 const services = [
   {
     num: "01",
-    title: "Web Development",
-    description: "Building modern and responsive websites tailored to your needs.",
+    title: "Développement Web",
+    description: "Création de sites web modernes et responsives adaptés à vos besoins.",
     href: "http://github.com",
   },
   {
     num: "02",
-    title: "Mobile Development",
-    description: "Creating user-friendly mobile apps for iOS and Android.",
+    title: "Développement Mobile",
+    description: "Conception d’applications mobiles intuitives pour iOS et Android.",
     href: "http://github.com",
   },
   {
     num: "03",
-    title: "Logo Design",
-    description: "Crafting unique logos that represent your brand identity.",
+    title: "Conception de Logo",
+    description: "Création de logos uniques qui reflètent l’identité de votre marque.",
     href: "http://github.com",
   },
   {
     num: "04",
-    title: "Maintenance and Support",
-    description: "Providing ongoing support and maintenance for your projects.",
+    title: "Maintenance et Support",
+    description: "Assurer la maintenance et le support continu de vos projets.",
     href: "http://github.com",
   },
 ];
+
+
 
 const Services: React.FC = () => {
   return (
@@ -50,7 +79,7 @@ const Services: React.FC = () => {
               <div key={index} className="flex-1 flex flex-col justify-center gap-6 group my-5">
                 {/* top */}
                 <div className="w-full flex justify-between items-center">
-                  <div className="text-4xl xl:text-6xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">{service.num}</div>
+                  <div className="text-4xl xl:text-6xl font-extrabold text-outline text-transparent group-online:text-accent-hover transition-all duration-500">{service.num}</div>
                   <Link href={service.href} className="w-[40px] h-[40px] xl:w-[50px] xl:h-[50px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45">
                     <BsArrowDownRight className="text-primary text-2xl" />
                   </Link>

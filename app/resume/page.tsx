@@ -38,196 +38,65 @@ import { motion } from "framer-motion";
 
 // about data
 const about = {
-  title: "About me",
+  title: "À propos de moi",
   description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores cumque asperiores vero dolorem aliquam dicta? Expedita possimus nisi consectetur sed?",
+    "Développeur Web et Mobile, passionné par la création de solutions logicielles adaptées aux besoins spécifiques des entreprises et startups. Toujours en quête d’innovation, j’utilise différentes technologies pour concevoir des applications performantes et intuitives.",
   info: [
-    {
-      fieldName: "Name",
-      fieldValue: "Possidius CAPO-CHICHI",
-    },
-    {
-      fieldName: "Phone",
-      fieldValue: "(+229) 66 957 003",
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "2+ Years",
-    },
-    {
-      fieldName: "Skype",
-      fieldValue: "Possidius",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "Beninois",
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "possidiusc@gmail.com",
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "Available",
-    },
-    {
-      fieldName: "Languages",
-      fieldValue: "French, English",
-    },
+    { fieldName: "Nom", fieldValue: "Possidius CAPO-CHICHI" },
+    { fieldName: "Téléphone", fieldValue: "(+229) 016 695 7003" },
+    { fieldName: "Expérience", fieldValue: "2+ ans" },
+    { fieldName: "Nationalité", fieldValue: "Béninois" },
+    { fieldName: "Email", fieldValue: "possidiusc@gmail.com" },
+    { fieldName: "Freelance", fieldValue: "Disponible" },
+    { fieldName: "Langues", fieldValue: "Français" },
   ],
 };
 
-// experience data
+// Skills
 const experiences = {
-  icon: "/assets/resume/badge.svg",
-  title: "My experience",
-  description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores cumque asperiores vero dolorem aliquam dicta? Expedita possimus nisi consectetur sed?",
+  title: "Mon expérience",
   items: [
-    {
-      company: "GUNIVERS",
-      position: "FullStack Developer",
-      duration: "2024 - Present",
-    },
-    {
-      company: "Freelance",
-      position: "Graphic Designer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "GUNIVERS",
-      position: "FullStack Developer",
-      duration: "2024 - Present",
-    },
-    {
-      company: "Freelance",
-      position: "Graphic Designer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "GUNIVERS",
-      position: "FullStack Developer",
-      duration: "2024 - Present",
-    },
-    {
-      company: "Freelance",
-      position: "Graphic Designer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "GUNIVERS",
-      position: "FullStack Developer",
-      duration: "2024 - Present",
-    },
-    {
-      company: "Freelance",
-      position: "Graphic Designer",
-      duration: "2022 - Present",
-    },
+    { company: "Arad Sarl", position: "Développeur Frontend Freelance", duration: "Décembre 2024" },
+    { company: "Zooma", position: "Développeur Web Freelance", duration: "Août 2024 - Présent" },
+    { company: "GUNIVES", position: "Développeur Web", duration: "Mai 2024" },
+    { company: "VIPP - HIGHFIVE", position: "Alternance - Développeur", duration: "Sept. 2023 - Mars 2024" },
   ],
 };
 
 // education data
-const education = {
-  icon: "/assets/resume/cap.svg",
-  title: "My education",
-  description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores cumque asperiores vero dolorem aliquam dicta? Expedita possimus nisi consectetur sed?",
-  items: [
-    {
-      institution: "GUNIVERS",
-      degree: "FullStack Developer",
-      duration: "2024 - Present",
-    },
-    {
-      institution: "GUNIVERS",
-      degree: "FullStack Developer",
-      duration: "2024 - Present",
-    },
-    {
-      institution: "GUNIVERS",
-      degree: "FullStack Developer",
-      duration: "2024 - Present",
-    },
-    {
-      institution: "GUNIVERS",
-      degree: "FullStack Developer",
-      duration: "2024 - Present",
-    },
-    {
-      institution: "GUNIVERS",
-      degree: "FullStack Developer",
-      duration: "2024 - Present",
-    },
-  ],
-};
+// const education = {
+//   icon: "/assets/resume/cap.svg",
+//   title: "My education",
+//   description:
+//     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores cumque asperiores vero dolorem aliquam dicta? Expedita possimus nisi consectetur sed?",
+//   items: [
+//     {
+//       institution: "GUNIVERS",
+//       degree: "FullStack Developer",
+//       duration: "2024 - Present",
+//     },
+//     
+//   ],
+// };
 
-// skills data
+
 const skills = {
-  title: "My skills",
-  description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores cumque asperiores vero dolorem aliquam dicta? Expedita possimus nisi consectetur sed?",
+  title: "Mes compétences",
   skillList: [
-    {
-      icon: <FaHtml5 />,
-      name: "html 5",
-    },
-    {
-      icon: <FaCss3 />,
-      name: "css 3",
-    },
-    {
-      icon: <FaJs />,
-      name: "javasript",
-    },
-    {
-      icon: <FaJava />,
-      name: "java",
-    },
-    {
-      icon: <FaPython />,
-      name: "python",
-    },
-    {
-      icon: <FaPhp />,
-      name: "php",
-    },
-    {
-      icon: <FaReact />,
-      name: "react.js",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "tailwindcss",
-    },
-    {
-      icon: <SiNextdotjs />,
-      name: "next.js",
-    },
-    {
-      icon: <SiAngular />,
-      name: "angular.js",
-    },
-    {
-      icon: <SiTypescript />,
-      name: "TypeScript",
-    },
-    {
-      icon: <SiVuedotjs />,
-      name: "vue.js",
-    },
-    {
-      icon: <SiLaravel />,
-      name: "laravel",
-    },
-    {
-      icon: <SiSpringboot />,
-      name: "springboot",
-    },
-    {
-      icon: <SiDjango />,
-      name: "django",
-    },
+    { icon: <FaHtml5 />, name: "HTML 5" },
+    { icon: <FaCss3 />, name: "CSS 3" },
+    { icon: <FaJs />, name: "JavaScript" },
+    { icon: <FaPython />, name: "Python" },
+    { icon: <FaJava />, name: "Java" },
+    { icon: <FaPhp />, name: "PHP" },
+    { icon: <FaReact />, name: "React.js" },
+    { icon: <SiTailwindcss />, name: "TailwindCSS" },
+    { icon: <SiNextdotjs />, name: "Next.js" },
+    { icon: <SiVuedotjs />, name: "Vue.js" },
+    { icon: <SiTypescript />, name: "TypeScript" },
+    { icon: <SiLaravel />, name: "Laravel" },
+    { icon: <SiSpringboot />, name: "Spring Boot" },
+    { icon: <SiDjango />, name: "Django" },
   ],
 };
 
@@ -247,10 +116,10 @@ const Resume: React.FC = () => {
           className="flex flex-col lg:flex-row gap-[60px] "
         >
           <TabsList className="flex flex-col w-full max-w-[360px] lg:max-w-[280px] xl:max-w-[380px] mx-auto xl:mx-0 gap-6 ">
-            <TabsTrigger value="experience">Exprerience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About me</TabsTrigger>
+            <TabsTrigger value="experience">Expériences</TabsTrigger>
+            {/* <TabsTrigger value="education">Education</TabsTrigger> */}
+            <TabsTrigger value="skills">Compétences</TabsTrigger>
+            <TabsTrigger value="about">À propos</TabsTrigger>
           </TabsList>
 
           {/* content */}
@@ -261,9 +130,9 @@ const Resume: React.FC = () => {
                 <h3 className="text-3xl xl:text-6xl font-bold my-4">
                   {experiences.title}{" "}
                 </h3>
-                <p className="max-w-[600px] text-white/60 text-[14px] xl:text-2xl mb-5 mx-auto lg:mx-0">
+                {/* <p className="max-w-[600px] text-white/60 text-[14px] xl:text-2xl mb-5 mx-auto lg:mx-0">
                   {experiences.description}
-                </p>
+                </p> */}
                 <ScrollArea className="h-[350px] xl:h-[400px]">
                   <ul className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     {experiences.items.map((item, index) => {
@@ -290,7 +159,7 @@ const Resume: React.FC = () => {
             </TabsContent>
 
             {/* Tabs education */}
-            <TabsContent value="education" className="w-full">
+            {/* <TabsContent value="education" className="w-full">
               <div className="flex flex-col text-center lg:text-left">
                 <h3 className="text-3xl xl:text-6xl font-bold my-4">{education.title} </h3>
                 <p className="max-w-[600px] text-white/60 text-[14px] xl:text-2xl mb-5 mx-auto lg:mx-0">
@@ -309,7 +178,7 @@ const Resume: React.FC = () => {
                             {item.degree}
                           </h3>
                           <div className="flex items-center gap-3">
-                            {/* dot */}
+                            dot
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60 ">{item.institution}</p>
                           </div>
@@ -319,16 +188,16 @@ const Resume: React.FC = () => {
                   </ul>
                 </ScrollArea>
               </div>
-            </TabsContent>
+            </TabsContent> */}
 
             {/* Tabs skills */}
             <TabsContent value="skills" className="w-full h-full">
               <div className="flex flex-col gap-3">
                 <div className="flex flex-col gap-8 text-center lg:text-left mb-5">
                   <h3 className="text-3xl xl:text-6xl font-bold my-4">{skills.title}</h3>
-                  <p className="max-w-[600px] text-[14px] xl:text-2xl text-white/60 mx-auto lg:mx-0 ">
+                  {/* <p className="max-w-[600px] text-[14px] xl:text-2xl text-white/60 mx-auto lg:mx-0 ">
                     {skills.description}
-                  </p>
+                  </p> */}
                 </div>
                 <ScrollArea className="h-[350px] xl:h-[400px]">
                   <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5 xl:gap-8">

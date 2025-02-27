@@ -10,10 +10,10 @@ import {
 } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "https://github.com/possidius" },
+  { icon: <FaGithub />, path: "https://github.com/possidiuscapo" },
   {
     icon: <FaLinkedin />,
-    path: "https://www.linkedin.com/in/michael-b-possidius/",
+    path: "https://www.linkedin.com/in/possidius-capo-chichi-35373a21b/",
   },
   { icon: <FaTwitter />, path: "https://twitter.com/possidius_" },
   // {
@@ -22,7 +22,7 @@ const socials = [
   // },
   {
     icon: <FaSkype />,
-    path: "https://www.youtube.com/channel/UCSu3O04950vV3eY_u16fXGQ",
+    path: "https://join.skype.com/invite/JH5LbjmwD2t5",
   },
 ];
 

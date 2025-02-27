@@ -20,9 +20,9 @@ const Photo = () => {
           opacity: 1,
           transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
         }}
-        className="w-[290px] h-[290px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
+        className="w-[290px] h-[290px] xl:w-[500px] xl:h-[500px] mix-blend-lighten absolute">
           {/* <Image src="/assets/avatar.png" alt="Possidius's picture" priority quality={100} fill className="object-contain" /> */}
-          <Image src="/assets/photo-avatar.png" alt="Possidius's picture" priority quality={100} fill className="object-contain" />
+          <Image src="/assets/profil_possi.jpg" alt="Possidius's picture" priority quality={100} fill className="object-contain rounded-full m-1 w-[290px] h-[290px] xl:w-[450px] xl:h-[450px]" />
         </motion.div>
 
         {/* circle */}
@@ -33,7 +33,7 @@ const Photo = () => {
           cy="253" 
           r="250" 
           fill="transparent" 
-          stroke="#618DF5"
+          stroke="#ef4b4b"
           strokeWidth="4"
           strokeLinecap="round" 
           strokeLinejoin="round"

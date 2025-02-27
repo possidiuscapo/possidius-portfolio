@@ -1,27 +1,26 @@
-"use client"
+"use client";
 
-import React from 'react'
-import CountUp from "react-countup"
-
+import React from 'react';
+import CountUp from "react-countup";
 
 const stats = [
   {
-    num: 4,
-    text: "Years of experience",
+    num: 2,
+    text: "Années d'expérience",
   },
   {
-    num: 10,
-    text: "Projects completed",
+    num: 5,
+    text: "Projets réalisés",
   },
   {
     num: 6,
-    text: "Technologies mastered",
+    text: "Technologies utilisées",
   },
   {
     num: 50,
-    text: "Code Commits",
+    text: "Commits de code",
   },
-]
+];
 
 const Stats = () => {
   return (
@@ -32,14 +31,14 @@ const Stats = () => {
             return (
               <div key={index} className="flex-1 flex justify-center xl:justify-start items-center gap-4">
                   <CountUp end={item.num} duration={5} delay={2} className='text-3xl lg:text-4xl xl:text-6xl font-extrabold'/>
-                <p className={`${item.text.length < 25 ? "max-w-[100px]" : "max-w-[150]"}leading-snug text-white/80 `}>{item.text}</p>
+                <p className={`${item.text.length < 25 ? "max-w-[100px]" : "max-w-[150px]"} leading-snug text-white/80`}>{item.text}</p>
               </div>
-            )
+            );
           })}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Stats
+export default Stats;

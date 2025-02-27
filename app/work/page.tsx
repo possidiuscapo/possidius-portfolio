@@ -18,45 +18,67 @@ import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
+
+
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 01",
+    category: "Frontend et Backend",
+    title: "Application de location de voitures",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum aut dolor odit tempora suscipit molestiae ducimus, dolores earum. Aut quidem fugit commodi similique.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
+      "Développement d'une application web permettant la location de voitures avec fonctionnalités avancées pour propriétaires et locataires.",
+    stack: [{ name: "Vue.js" }, { name: "Laravel" }, { name: "MySQL" }],
     image: "/assets/work/thumb1.png",
     live: "",
     github: "",
   },
   {
     num: "02",
-    category: "fullstack",
-    title: "project 02",
+    category: "Frontend",
+    title: "Site vitrine pour ARAD SARL",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum aut dolor odit tempora suscipit molestiae ducimus, dolores earum. Aut quidem fugit commodi similique.",
-    stack: [
-      { name: "Next.js" },
-      { name: "TailwindCss" },
-      { name: "Laravel Filament" },
-    ],
-    image: "/assets/work/thumb2 .png",
+      "Conception et développement d'un site vitrine moderne et responsive pour une entreprise spécialisée en services.",
+    stack: [{ name: "Vue.js" }, { name: "TailwindCSS" }],
+    image: "/assets/work/thumb2.png",
     live: "",
     github: "",
   },
+  // {
+  //   num: "05",
+  //   category: "Frontend et Backend",
+  //   title: "Application de gestion de ravitaillement",
+  //   description:
+  //     "Développement d'une application complète de gestion des stocks et planification des tâches pour une entreprise.",
+  //   stack: [{ name: "Laravel" }, { name: "Vue.js" }, { name: "MySQL" }],
+  //   image: "/assets/work/thumb5.png",
+  //   live: "",
+  //   github: "",
+  // },
   {
     num: "03",
-    category: "backend",
-    title: "project 03",
+    category: "Frontend",
+    title: "Site vitrine pour GUNIVES",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum aut dolor odit tempora suscipit molestiae ducimus, dolores earum. Aut quidem fugit commodi similique.",
-    stack: [{ name: "Django" }, { name: "TailwindCss" }],
+      "Création d'un site vitrine moderne et performant pour l'entreprise GUNIVES.",
+    stack: [{ name: "Next.js" }, { name: "Laravel Filament" }],
     image: "/assets/work/thumb3.png",
     live: "",
     github: "",
   },
+  {
+    num: "04",
+    category: "Portfolio",
+    title: "Mon Portfolio",
+    description:
+      "Développement de mon portfolio personnel pour présenter mes compétences et réalisations.",
+    stack: [{ name: "Next.js" }, { name: "TailwindCSS" }],
+    image: "/assets/work/thumb4.png",
+    live: "",
+    github: "",
+  },
+  
 ];
+
 
 const Work: React.FC = () => {
   const [project, setProject] = useState(projects[0]);
@@ -86,7 +108,7 @@ const Work: React.FC = () => {
               </div>
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize ">
-                {project.category}{" "}
+                {"projet "}{project.category}
               </h2>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>

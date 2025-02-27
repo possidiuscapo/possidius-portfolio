@@ -1,0 +1,14 @@
+.container{
+    /* colors-primary */
+    background-color: #1c1c22;
+    /* colors-secondary */
+    background-color: #1c1c22;
+    /* colors-accent-default */
+    background-color: #ef4b4b;
+    /* colors-accent-hover */
+    background-color: #ec2525;
+    /* colors-accent-light */
+    background-color: #424247;
+    /* colors-accent-dark */
+    background-color: #757577;
+}

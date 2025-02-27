@@ -30,8 +30,8 @@ const config = {
         primary: "#1c1c22",
         secondary: "#1c1c22",
         accent:{
-          DEFAULT: "#4B7EEF",
-          hover: "#618DF5",
+          DEFAULT: "#ef4b4b",
+          hover: "#ec2525",
           // light: "#424247",
           // dark: "#757577",
           // bright: "#ff9442"

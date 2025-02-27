@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -17,9 +17,10 @@
     "@radix-ui/react-tooltip": "^1.1.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.3.30",
+    "framer-motion": "^10.12.16",
     "lucide-react": "^0.436.0",
     "next": "14.2.7",
+    "possidius-portfolio": "file:",
     "react": "^18",
     "react-countup": "^6.5.3",
     "react-dom": "^18",

@@ -31,7 +31,7 @@ const Stats = () => {
             return (
               <div key={index} className="flex-1 flex justify-center xl:justify-start items-center gap-4">
                 <div className='flex'>
-                  <span>+</span>
+                  <span className='text-2xl lg:text-3xl xl:text-4xl font-bold'>+</span>
                   <CountUp end={item.num} duration={5} delay={2} className='text-3xl lg:text-4xl xl:text-6xl font-extrabold'/>
                 </div>
                   

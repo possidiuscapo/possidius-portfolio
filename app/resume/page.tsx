@@ -142,7 +142,7 @@ const Resume: React.FC = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[150px] xl:h-[186px] py-6 px-10 rounded-xl felx flex-col justify-center items-center lg:items-start gap-2"
+                          className="bg-[#232329] h-[155px] xl:h-[190px] py-6 px-10 rounded-xl felx flex-col justify-center items-center lg:items-start gap-2"
                         >
                           <span className="text-accent text-sm">{item.duration}</span>
                           <h3 className="text-sm max-w[260px] min-h[60px] text-center lg:text-left mb-5">

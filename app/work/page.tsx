@@ -94,7 +94,7 @@ const projects = [
     description:
       "Conception et développement du site vitrine de SCAR-SOFT présentant l'entreprise, ses activités et ses prestations de services.",
     stack: [{ name: "Vue.js" }, { name: "TailwindCSS" }],
-    image: "/assets/work/thumb5.png",
+    image: "/assets/work/thumb7.png",
     live: "",
     github: "",
   },

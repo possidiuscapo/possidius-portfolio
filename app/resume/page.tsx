@@ -56,6 +56,7 @@ const about = {
 const experiences = {
   title: "Mon expérience",
   items: [
+    { company: "SCAR-SOFT", position: "Développeur Full Stack Web", duration: "Fév. 2025 - Oct. 2025" },
     { company: "Arad Sarl", position: "Développeur Frontend Freelance", duration: "Décembre 2024" },
     { company: "Zooma", position: "Développeur Web Freelance", duration: "Août 2024 - Présent" },
     { company: "GUNIVES", position: "Développeur Web", duration: "Mai 2024" },

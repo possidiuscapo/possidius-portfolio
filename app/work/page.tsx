@@ -57,6 +57,17 @@ const projects = [
   {
     num: "03",
     category: "Frontend",
+    title: "Site vitrine CIFH International",
+    description:
+      "Création du site vitrine de CIFH International avec WordPress : pages Accueil, Services, Formations et Contact, intégration de WooCommerce, gestion des cookies et système de paiement en ligne.",
+    stack: [{ name: "WordPress" }, { name: "WooCommerce" }],
+    image: "/assets/work/thumb4.png",
+    live: "https://cifh-inter.org",
+    github: "",
+  },
+  {
+    num: "04",
+    category: "Frontend",
     title: "Site vitrine pour GUNIVES",
     description:
       "Création d'un site vitrine moderne et performant pour l'entreprise GUNIVES.",
@@ -66,13 +77,35 @@ const projects = [
     github: "",
   },
   {
-    num: "04",
+    num: "05",
     category: "Portfolio",
     title: "Mon Portfolio",
     description:
       "Développement de mon portfolio personnel pour présenter mes compétences et réalisations.",
     stack: [{ name: "Next.js" }, { name: "TailwindCSS" }],
     image: "/assets/work/thumb4.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "06",
+    category: "Frontend et Backend",
+    title: "Application Webbap - SCAR-SOFT",
+    description:
+      "Développement d'une application web SaaS permettant aux entreprises européennes (services, vente, etc.) de gérer leurs personnels, clients, devis, factures, notes de crédit et abonnements.",
+    stack: [{ name: "Vue.js" }, { name: "Laravel" }, { name: "MySQL" }],
+    image: "/assets/work/thumb5.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "07",
+    category: "Frontend",
+    title: "Site vitrine SCAR-SOFT",
+    description:
+      "Conception et développement du site vitrine de SCAR-SOFT présentant l'entreprise, ses activités et ses prestations de services.",
+    stack: [{ name: "Vue.js" }, { name: "TailwindCSS" }],
+    image: "/assets/work/thumb5.png",
     live: "",
     github: "",
   },

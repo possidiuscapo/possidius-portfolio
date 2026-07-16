@@ -29,7 +29,7 @@ const projects = [
       "Développement d'une application web permettant la location de voitures avec fonctionnalités avancées pour propriétaires et locataires.",
     stack: [{ name: "Vue.js" }, { name: "Laravel" }, { name: "MySQL" }],
     image: "/assets/work/thumb1.png",
-    live: "",
+    live: "https://zoomaa.fr/",
     github: "",
   },
   {
@@ -40,20 +40,9 @@ const projects = [
       "Conception et développement d'un site vitrine moderne et responsive pour une entreprise spécialisée en services.",
     stack: [{ name: "Vue.js" }, { name: "TailwindCSS" }],
     image: "/assets/work/thumb2.png",
-    live: "",
+    live: "www.aradsarl.com",
     github: "",
   },
-  // {
-  //   num: "05",
-  //   category: "Frontend et Backend",
-  //   title: "Application de gestion de ravitaillement",
-  //   description:
-  //     "Développement d'une application complète de gestion des stocks et planification des tâches pour une entreprise.",
-  //   stack: [{ name: "Laravel" }, { name: "Vue.js" }, { name: "MySQL" }],
-  //   image: "/assets/work/thumb5.png",
-  //   live: "",
-  //   github: "",
-  // },
   {
     num: "03",
     category: "Frontend",
@@ -61,7 +50,7 @@ const projects = [
     description:
       "Création du site vitrine de CIFH International avec WordPress : pages Accueil, Services, Formations et Contact, intégration de WooCommerce, gestion des cookies et système de paiement en ligne.",
     stack: [{ name: "WordPress" }, { name: "WooCommerce" }],
-    image: "/assets/work/thumb4.png",
+    image: "/assets/work/thumb5.png",
     live: "https://cifh-inter.org",
     github: "",
   },
@@ -94,8 +83,8 @@ const projects = [
     description:
       "Développement d'une application web SaaS permettant aux entreprises européennes (services, vente, etc.) de gérer leurs personnels, clients, devis, factures, notes de crédit et abonnements.",
     stack: [{ name: "Vue.js" }, { name: "Laravel" }, { name: "MySQL" }],
-    image: "/assets/work/thumb5.png",
-    live: "",
+    image: "/assets/work/thumb6.png",
+    live: "https://mbcloudlab.com/fr/home",
     github: "",
   },
   {
@@ -160,7 +149,7 @@ const Work: React.FC = () => {
               <div className="border border-white/20"></div>
               {/* button */}
               <div className="flex items-center gap-4">
-                <Link href={project.live}>
+                <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -172,7 +161,7 @@ const Work: React.FC = () => {
                     </Tooltip>
                   </TooltipProvider>
                 </Link>
-                <Link href={project.github}>
+                {/* <Link href={project.github} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -183,7 +172,7 @@ const Work: React.FC = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

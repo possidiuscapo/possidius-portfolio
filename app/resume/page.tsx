@@ -144,7 +144,7 @@ const Resume: React.FC = () => {
                           key={index}
                           className="bg-[#232329] h-[150px] xl:h-[186px] py-6 px-10 rounded-xl felx flex-col justify-center items-center lg:items-start gap-2"
                         >
-                          <span className="text-accent">{item.duration}</span>
+                          <span className="text-accent text-sm">{item.duration}</span>
                           <h3 className="text-sm max-w[260px] min-h[60px] text-center lg:text-left mb-5">
                             {item.position}
                           </h3>

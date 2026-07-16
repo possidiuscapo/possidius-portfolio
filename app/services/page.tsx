@@ -38,25 +38,25 @@ const services = [
     num: "01",
     title: "Développement Web",
     description: "Création de sites web modernes et responsives adaptés à vos besoins.",
-    href: "http://github.com",
+    href: "",
   },
   {
     num: "02",
     title: "Développement Mobile",
     description: "Conception d’applications mobiles intuitives pour iOS et Android.",
-    href: "http://github.com",
+    href: "",
   },
   {
     num: "03",
     title: "Conception de Logo",
     description: "Création de logos uniques qui reflètent l’identité de votre marque.",
-    href: "http://github.com",
+    href: "",
   },
   {
     num: "04",
     title: "Maintenance et Support",
     description: "Assurer la maintenance et le support continu de vos projets.",
-    href: "http://github.com",
+    href: "",
   },
 ];
 

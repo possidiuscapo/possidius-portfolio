@@ -11,6 +11,7 @@ import {
   FaPhp,
   FaReact,
   FaFigma,
+  FaWordpress,
 } from "react-icons/fa";
 
 import {
@@ -44,7 +45,7 @@ const about = {
   info: [
     { fieldName: "Nom", fieldValue: "Possidius CAPO-CHICHI" },
     { fieldName: "Téléphone", fieldValue: "(+229) 016 695 7003" },
-    { fieldName: "Expérience", fieldValue: "2+ ans" },
+    { fieldName: "Expérience", fieldValue: "3+ ans" },
     { fieldName: "Nationalité", fieldValue: "Béninois" },
     { fieldName: "Email", fieldValue: "possidiusc@gmail.com" },
     { fieldName: "Freelance", fieldValue: "Disponible" },
@@ -96,8 +97,9 @@ const skills = {
     { icon: <SiVuedotjs />, name: "Vue.js" },
     { icon: <SiTypescript />, name: "TypeScript" },
     { icon: <SiLaravel />, name: "Laravel" },
-    { icon: <SiSpringboot />, name: "Spring Boot" },
+    // { icon: <SiSpringboot />, name: "Spring Boot" },
     { icon: <SiDjango />, name: "Django" },
+    { icon: <FaWordpress />, name: "WordPress" },
   ],
 };
 
